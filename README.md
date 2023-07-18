@@ -2,7 +2,7 @@
 This is the final project
 
 ![ScreenShot](screenshot.png) 
-[!](screenshot.jpg) 
+[!](screenshot.png) 
 
 
 

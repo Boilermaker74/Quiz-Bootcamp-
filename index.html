@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Changed Title to Code Quiz -->
+    <title>Code Quiz</title>
+</head>
+
+<body>
+
+<!-- starting window and button -->
+<!-- This is the initial display screen and start button -->
+    
+    <header id = "begin" >
+        <h1 >Coding Quiz Challenge</h1>
+        <h2 id = head2 >
+        Try to answer the following code-related questions within the time limit. <br>
+        Keep in mind that incorrect answers will penalize your score time <br>
+        by ten seconds!
+        </h2>
+        <Button id = "startbutton">Start Quiz</Button>
+    </Header>
+
+<!-- Main part of Quiz -->
+<!-- Header button and title -->
+    
+    <header>   
+        <div class = "quiz" id = "timer">Timer</div>
+        <button id = "highscore">View High Score</button>
+    </header>
+    
+    <Section >
+        <div class = "quiz" id = "card">
+            <p class = "quiz" id = "question"></p>
+ 
+            <!-- Four Question buttons that appear that are clicked on to be answered. -->
+
+            <button class = "btn quiz" id="1">Answer 1</button>
+            <button class = "btn quiz" id="2">Answer 2</button>
+            <button class = "btn quiz" id="3">Answer 3</button>
+            <button class = "btn quiz" id="4">Answer 4</button>
+        </div>
+
+<!-- This footer is where the "correct" and "wrong" responses are displayed -->
+
+    </Section>
+        <footer class dis = "quiz" id = "foot">
+        </footer>
+        <script> document.getElementById("foot").style.borderColor = "white";</script>
+
+<!-- Last part of Quiz Results and End -->
+<!-- Final message all done and final score -->
+
+    <header>
+        <h1 id ="final">All done!</h1>
+        <h2 id = "message">Your final score is </h2>
+    </header>
+
+<!-- Form where user enters their initials  -->
+
+    <form>
+        <label id = "initials" for="fname">Enter initals:</label>
+        <input type="ibox" id="fname" name="fname"placeholder="initals.."">
+        <input id = "ibut" class="btn"  value="Submit">
+    </form>
+
+<!-- script to hide the final message and high score list until the end of quiz  -->
+
+    <p id = "two symbol initial message"></p>
+      <script> 
+      document.getElementById("final").style.display = ("none")
+      document.getElementById("message").style.display = ("none")
+      document.getElementById("initials").style.display = ("none")
+      document.getElementById("fname").style.display = ("none")
+      document.getElementById("ibut").style.display = ("none")
+      document.getElementById("two symbol initial message").style.marginLeft = ("20%")
+      </script>
+
+  <!-- Last screen with High scores -->
+
+    <header>
+        <h1 id = "hiscoreheader">High scores</h1>
+    </header>
+
+<!-- The high score list -->
+
+    <ol type = "1" id = "highscorelist">
+    </ol>
+
+  <!-- Buttons to reset game and clear high scores -->
+  
+    <form>
+        <button class = "lastbut" id="goback" >Go back</button>
+        <button class = "lastbut" id="clearscore">Clear high scores</button>
+    </form>
+
+    <Script>
+    document.getElementById("goback").style.display = ("none")
+    document.getElementById("clearscore").style.display = ("none")
+    </Script>
+    <script src="script.js"></script>
+
+    </body>
+</html> 

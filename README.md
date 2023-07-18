@@ -4,7 +4,7 @@ This is the final project
 ![ScreenShot](final screen.png) 
 
 
-![ScreenShot](image.png) 
+![ScreenShot](final screen.png) 
 
 
 

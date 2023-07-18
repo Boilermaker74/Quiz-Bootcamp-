@@ -2,7 +2,6 @@
 This is the final project
 
 ![ScreenShot](image.png) 
-[!](imae.png) 
 
 
 

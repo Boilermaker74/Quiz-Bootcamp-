@@ -1,8 +1,8 @@
 # Project 4 Quiz
 This is the final project
 
-![ScreenShot](screenshot.png) 
-[!](screenshot.png) 
+![ScreenShot](image.png) 
+[!](image.png) 
 
 
 

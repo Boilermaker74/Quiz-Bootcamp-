@@ -1,7 +1,7 @@
 # Project 4 Quiz
 This is the final project
 ![Getting Started]
-(images/img.jpg)
+image.png)
 
 
 

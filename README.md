@@ -1,7 +1,7 @@
 # Project 4 Quiz
 This is the final project
 
-![ScreenShot](Beginning screen.png) 
+![ScreenShot](final screen.png) 
 
 
 ![ScreenShot](image.png) 
